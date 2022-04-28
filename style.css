@@ -6,7 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -89,12 +88,14 @@ a:hover {
     left: 0;
     right: 0;
 }
-
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
+.text-center{
+    font-size: 16px;
+}
 .b-parallax {
     background-attachment: fixed;
 }
@@ -272,7 +273,7 @@ a:hover {
     margin-top: 80px;
 }
 
-.row-no-gutters {
+t.row-no-gutters {
     margin-right: 0;
     margin-left: 0;
 }
@@ -299,6 +300,9 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    position: relative;
+    left: -300px;
+    
 }
 
 .navbar-brand img {
@@ -325,7 +329,10 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    margin-left: 20px;
+    font-size: 18px;
+    position: relative;
+    left: 350px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -438,6 +445,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 22px;  
 }
 
 .mg-lg {
@@ -746,6 +754,8 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    /* background-color: grey; */
+   
 }
 
 .avatar {
@@ -812,11 +822,6 @@ h4 {
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
