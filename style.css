@@ -272,7 +272,8 @@ img{
    display: flex;
    justify-content: center;
 }
-h5{
+.col6{
+    font-size: 15px;
   text-align: center;
 }
 .row-no-gutters {
